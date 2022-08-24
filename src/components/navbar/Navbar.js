@@ -6,6 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavbarBrand from 'react-bootstrap/esm/NavbarBrand';
 import {FaSkiing, FaSnowboarding, FaTshirt} from 'react-icons/fa';
 import {AiFillHome} from 'react-icons/ai';
+import {NavDropdown} from 'react-bootstrap'
+import CartWidget from '../CartWidget'
 
 function Barra() {
   return (
@@ -19,26 +21,37 @@ function Barra() {
             <Navbar.Toggle />
             <Navbar.Collapse>
                 <Nav className='ms-auto'>
-                    <Nav.Link className='mx-3'>
-                        <div>
-                           <AiFillHome  className='mx-2'/>
-                           Home 
-                        </div>
+                    <Nav.Link className='mx-3'>Home</Nav.Link>
+                    <NavDropdown title='Snowboard' className='mx-3'>
+                        <NavDropdown.Item>All mountain</NavDropdown.Item>
+                        <NavDropdown.Item>Freestyle</NavDropdown.Item>
+                        <NavDropdown.Item>Freeride</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item>Todas las tablas</NavDropdown.Item>
+                    </NavDropdown>
+
+                    <NavDropdown title='Ski' className='mx-3'>
+                        <NavDropdown.Item>All mountain</NavDropdown.Item>
+                        <NavDropdown.Item>Freestyle</NavDropdown.Item>
+                        <NavDropdown.Item>Pista</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item>Todas los skies</NavDropdown.Item>
+                    </NavDropdown>
+                    
+                    <NavDropdown title='Indumentaria' className='mx-3'>
+                        <NavDropdown.Item>Camperas</NavDropdown.Item>
+                        <NavDropdown.Item>Pantalones</NavDropdown.Item>
+                        <NavDropdown.Item>Cascos</NavDropdown.Item>
+                        <NavDropdown.Item>Gafas</NavDropdown.Item>
+                        <NavDropdown.Item>Accesorios</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item>Todos</NavDropdown.Item>
+                    </NavDropdown>  
+                    <Nav.Link className='mx-1'>
+                      <CartWidget className='mx-2' />  
+                      Mis compras
                     </Nav.Link>
-                    <Nav.Link className='mx-3'>
-                        <div>
-                           <FaSnowboarding className='mx-2' />
-                           Snowboard 
-                        </div>
-                    </Nav.Link>
-                    <Nav.Link className='mx-3'>
-                        <FaSkiing className='mx-2' />
-                        Ski
-                    </Nav.Link>
-                    <Nav.Link className='mx-3'>
-                        <FaTshirt className='mx-2' />
-                        Indumentaria
-                    </Nav.Link>
+                    
                 </Nav>
             </Navbar.Collapse>
             
