@@ -48,7 +48,7 @@ function Barra() {
                         <NavDropdown.Item>Todos</NavDropdown.Item>
                     </NavDropdown>  
                     <Nav.Link className='mx-1'>
-                      <CartWidget className='mx-2' />  
+                      <CartWidget />  
                       Mis compras
                     </Nav.Link>
                     
