@@ -1,0 +1,156 @@
+[
+    {
+        "titulo": "Tabla de snowboard",
+        "marca": "Santa Cruz",
+        "modelo": "158",
+        "precio": "$148.500",
+        "uso" : "Freeride / All mountain",
+        "imagen": "assets/images/snow-158.jpg",
+        "id" : "1"
+    },
+    {
+        "titulo": "Tabla de snowboard",
+        "marca": "Santa Cruz",
+        "modelo": "Lion God",
+        "precio": "$181.500",
+        "uso" : "Freeride / All mountain",
+        "imagen": "assets/images/snow-liongod.jpg",
+        "id" : "2"
+    },
+    {
+        "titulo": "Tabla de snowboard",
+        "marca": "Santa Cruz",
+        "modelo": "Mummy Wide Combo Camber",
+        "precio": "$176.000",
+        "uso" : "Freeride",
+        "imagen": "assets/images/snow-mummy-wide.jpg",
+        "id" : "3"
+    },
+    {
+        "titulo": "Tabla de snowboard",
+        "marca": "Santa Cruz",
+        "modelo": "Eyegore",
+        "precio": "$176.000",
+        "uso" : "Freestyle",
+        "imagen": "assets/images/snow-eyegore.jpg",
+        "id" : "4"
+    },
+    {
+        "titulo": "Tabla de snowboard",
+        "marca": "Santa Cruz",
+        "modelo": "Screaming Hand Camber",
+        "precio": "$176.000",
+        "uso" : "Freestyle",
+        "imagen": "assets/images/snow-rockhand.jpg",
+        "id" : "5"
+    },
+    {
+        "titulo": "Tabla de snowboard",
+        "marca": "Santa Cruz",
+        "modelo": "Rockhand Competition Camber",
+        "precio": "$189.750",
+        "uso" : "Freestyle",
+        "imagen": "assets/images/snow-screaming.jpg",
+        "id" : "6"
+    },
+    {
+        "titulo": "Tablas de Ski",
+        "marca": "Faction",
+        "modelo": "Prodigy 0.0X W",
+        "precio": "$115.500",
+        "uso" : "All mountain",
+        "imagen": "",
+        "id" : "7"
+    },
+    {
+        "titulo": "Tablas de Ski",
+        "marca": "Faction",
+        "modelo": "Agent 2.0 W21",
+        "precio": "$208.950",
+        "uso" : "All mountain",
+        "imagen": "",
+        "id" : "8"
+    },
+    {
+        "titulo": "Tablas de Ski",
+        "marca": "Faction",
+        "modelo": "Dictator 3.0 W21",
+        "precio": "$220.500",
+        "uso" : "All mountain",
+        "imagen": "",
+        "id" : "9"
+    },
+    {
+        "titulo": "Tablas de Ski",
+        "marca": "Faction",
+        "modelo": "Dictator 1.0",
+        "precio": "$131.250",
+        "uso" : "All mountain",
+        "imagen": "",
+        "id" : "10"
+    },
+    {
+        "titulo": "Campera",
+        "marca": "Quiksilver",
+        "modelo": "Horizon verde",
+        "precio": "$82.709",
+        "uso" : "Invierno",
+        "imagen": "",
+        "id" : "11"
+    },
+    {
+        "titulo": "Campera",
+        "marca": "Quiksilver",
+        "modelo": "Sycamore verde",
+        "precio": "$67.234",
+        "uso" : "Invierno",
+        "imagen": "",
+        "id" : "12"
+    },
+    {
+        "titulo": "Pantalon",
+        "marca": "Quiksilver",
+        "modelo": "Boogie",
+        "precio": "$41.321",
+        "uso" : "Invierno",
+        "imagen": "",
+        "id" : "13"
+    },
+    {
+        "titulo": "Pantalon",
+        "marca": "Picture",
+        "modelo": "Panel Black",
+        "precio": "$101.269",
+        "uso" : "Invierno",
+        "imagen": "",
+        "id" : "14"
+    },
+    {
+        "titulo": "Casco",
+        "marca": "Bern",
+        "modelo": "Macon",
+        "precio": "$31.257",
+        "uso" : "Ski/Snowboard",
+        "imagen": "",
+        "id" : "15"
+    },
+    {
+        "titulo": "Casco",
+        "marca": "Protect",
+        "modelo": "Riot Camo",
+        "precio": "$18.500",
+        "uso" : "Ski/Snowboard",
+        "imagen": "",
+        "id" : "16"
+    },
+    {
+        "titulo": "Casco",
+        "marca": "Head",
+        "modelo": "Arise Blue",
+        "precio": "$35.869",
+        "uso" : "Ski/Snowboard",
+        "imagen": "",
+        "id" : "17"
+    }
+    
+]

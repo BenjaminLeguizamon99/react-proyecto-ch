@@ -1,0 +1,26 @@
+h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: #212f45;
+    color: #D6DEEB;
+    border-radius: 7px;
+    border: solid 1px #D6DEEB;
+    padding: 5px 15px;
+}
+
+.card {
+    border: 1px solid #212f45;
+    padding: 10px 20px;
+    width: 80%;
+    margin: 1rem;
+}
+img {
+    min-width: 50%;
+    max-width: 60%;
+    min-height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
