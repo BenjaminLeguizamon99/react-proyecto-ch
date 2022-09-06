@@ -1,8 +1,11 @@
 import './App.css';
 import Barra from './components/navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import Item from './components/Item/Item';
+
 import ItemList from './components/ItemList/ItemList';
+import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetailContainer';
+
+
 
 
 
@@ -11,8 +14,8 @@ function App() {
    <>
     <Barra />
     <ItemListContainer title='Nuestros productos' />
-    <Item />
     <ItemList />
+    <ItemDetailContainer />
    </>
   );
 }

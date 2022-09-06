@@ -55,10 +55,10 @@
     },
     {
         "titulo": "Tablas de Ski",
-        "marca": "Faction",
-        "modelo": "Prodigy 0.0X W",
+        "marca": "Fischer",
+        "modelo": "Cruzar",
         "precio": "$115.500",
-        "uso" : "All mountain",
+        "uso" : "Freestyle",
         "imagen": "",
         "id" : "7"
     },

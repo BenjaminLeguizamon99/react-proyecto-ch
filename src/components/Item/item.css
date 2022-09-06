@@ -1,26 +1,20 @@
+
 h3 {
     text-transform: uppercase;
     font-size: 1.5rem;
 }
-
-button {
-    background-color: #212f45;
-    color: #D6DEEB;
-    border-radius: 7px;
-    border: solid 1px #D6DEEB;
-    padding: 5px 15px;
-}
-
 .card {
     border: 1px solid #212f45;
     padding: 10px 20px;
-    width: 80%;
+    width: 70%;
     margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+
 img {
-    min-width: 50%;
-    max-width: 60%;
-    min-height: 50%;
     margin-right: auto;
     margin-left: auto;
+    max-height: 300px;
+    max-width: 200px;
 }
