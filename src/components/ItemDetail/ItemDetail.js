@@ -9,7 +9,6 @@ const ItemDetail = ({informacion}) => {
         <div className='col-md-6 contenedor-imagen'>
             <img src={informacion.imagen} alt={informacion.titulo} className='img-detalle' />
         </div>
-
         <div className='col-md-6 contenedor-detalle'>
             <h3>{informacion.titulo}</h3>
             <h4>{informacion.precio}</h4>

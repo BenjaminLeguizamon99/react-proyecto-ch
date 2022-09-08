@@ -1,5 +1,6 @@
 import './item.css'
 import { Button } from '@mui/material';
+import {Link} from 'react-router-dom'
 
 const Item = ({producto}) => {
   return (
@@ -10,7 +11,9 @@ const Item = ({producto}) => {
           Modelo: {producto.modelo} <br />
           Uso: {producto.uso}</p>
         <h5>{producto.precio}</h5>
-        <Button variant="contained">Agregar al carrito</Button>
+        <Link to={`/detail/${producto.id}`} className='estilo-link mt-2'>
+          <Button variant="contained">Más información</Button>
+        </Link>
     </div>
   );
 };

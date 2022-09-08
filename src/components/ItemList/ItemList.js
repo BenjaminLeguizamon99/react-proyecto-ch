@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Item from '../Item/Item';
 import './itemList.css'
 
+
 const ItemList = () => {
     const [productos, setProductos] = useState([]);
 
@@ -18,7 +19,7 @@ const ItemList = () => {
     return (
       <div className='grid-cards'>
         {productos.map(producto => (
-        <Item producto={producto} key={producto.id} />
+            <Item producto={producto} key={producto.id} />
         ))}
       </div>
     );

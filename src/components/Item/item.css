@@ -18,3 +18,7 @@ img {
     max-height: 300px;
     max-width: 200px;
 }
+
+.estilo-link {
+    text-decoration: none;
+}

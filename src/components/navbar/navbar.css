@@ -1,13 +1,20 @@
-.navbar-logo {
-    width: 10%;
-    height: 10%;
-    min-width: 50px;
-    min-height: 50px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+.titulo-nav {
+    text-decoration: none;
+    color: #d7d9ce;
 }
 
 .navbar-elementos {
     font-size: 1.3rem;
     font-weight: 400;
+}
+
+.link {
+    text-decoration: none;
+    color: #d7d9ce;
+    margin: auto 0px;
+    font-size: 1.2rem;
+}
+
+.link:hover {
+    color: grey;
 }
